@@ -1,13 +1,73 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+body {
+  
+  font-family: Arial, sans-serif;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
+
+.App {
+  width: 500px;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+  
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc;
+  padding: 10px 15px;
+ 
+}
+
+.Header p {
+  margin: 0;
+}
+
+/* Task.js */
+
+.action-btn{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.action-btn p {
+  margin: 10px;
+}
+
+
+.action-btn:hover {
+  color:#ccc;
+}
+
+/* AddTask.js */
+
+.add-task {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  
+}
+
+.add-task button {
+  margin: 0 10px;
+}
+
